@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "Name": "发布设置1",
+    "ApplicationUrl": "https://hzg.app.hzgcloud.cn/TestPublish",
+    "PublishSettings": {
+      "IsCloudServer": true,
+      "ServerName": "hzg.app.hzgcloud.cn",
+      "UserName": "Administrator",
+      "AppName": "TestPublish",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "发布设置2",
+    "ApplicationUrl": "http://localhost/aaaa",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "localhost",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "aaaa",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  }
+]
