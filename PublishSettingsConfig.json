@@ -6,6 +6,7 @@
       "IsCloudServer": true,
       "ServerName": "hzg.app.hzgcloud.cn",
       "UserName": "Administrator",
+      "SitePort": 80,
       "AppName": "TestPublish",
       "AppStartPage": "",
       "TakeServeronline": true,

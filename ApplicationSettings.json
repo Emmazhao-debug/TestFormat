@@ -2,9 +2,15 @@
   "IntegrateWithOtherApplication": {
     "Password": "xrmRBuwT5GEU"
   },
+  "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
   "GlobalProperties": [],
   "WebSitePort": 47868,
   "UserServicePort": 51405,
-  "StartDateFiscalYear": 1
+  "StartDateFiscalYear": 1,
+  "BaseOnStartingMonth": true,
+  "CellTypeSpinInfos": [],
+  "KeepMasterPage": false,
+  "NameConflictPolicy": 1,
+  "AuditingList": {}
 }
