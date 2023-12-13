@@ -10,6 +10,7 @@
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
   "CellTypeSpinInfos": [],
+  "SyncUserInfoCacheForBuiltInView": false,
   "KeepMasterPage": false,
   "NameConflictPolicy": 1,
   "AuditingList": {}
