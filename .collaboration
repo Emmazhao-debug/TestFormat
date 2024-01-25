@@ -205,7 +205,17 @@
   },
   {
     "ModuleName": "Table/Testtable",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "Emma.zhao@developertools.com"
+    },
+    "LockDateTime": "2024-01-25T16:03:21.0210707+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Testtable.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   }
 ]
