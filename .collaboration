@@ -201,35 +201,6 @@
   },
   {
     "ModuleName": "TableView/basicview",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-01-25T15:43:19.3400039+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\basicview.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/basicview_登録・更新の共通ページ",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-01-25T15:44:00.6137389+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/basicview_一覧ページ",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-01-25T15:44:00.6137406+08:00",
-    "ModuleType": 1
+    "ModuleType": 23
   }
 ]
