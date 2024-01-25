@@ -112,6 +112,46 @@
         "ColumnName": "ユーザーアカウント",
         "GUID": "a709b530-ba89-4961-bbfb-b7ffb22661cf"
       }
+    },
+    "32,6": {
+      "ListViewInfo": {
+        "Name": "リストビュー2",
+        "TableName": "Testtable",
+        "RowIndex": 32,
+        "ColumnIndex": 6,
+        "RowCount": 9,
+        "ColumnCount": 28,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "33,6": {
+      "NameUsedInJavaScript": "テキスト",
+      "BindingInfo": {
+        "TableName": "Testtable",
+        "ColumnName": "テキスト",
+        "GUID": "3edb7783-9edc-40cc-9ee6-0030ed43585f"
+      }
+    },
+    "33,10": {
+      "NameUsedInJavaScript": "日付_時刻",
+      "BindingInfo": {
+        "TableName": "Testtable",
+        "ColumnName": "日付_時刻",
+        "GUID": "22f45aa8-de2c-4fdc-83d6-7de9106d1c30"
+      }
+    },
+    "33,14": {
+      "NameUsedInJavaScript": "時刻",
+      "BindingInfo": {
+        "TableName": "Testtable",
+        "ColumnName": "時刻",
+        "GUID": "64b2f47f-096e-4d86-9cd7-3078c8ea2486"
+      }
     }
   },
   "StyleDatas": {
@@ -184,18 +224,25 @@
     "12,10,1,7",
     "12,17,1,4",
     "12,21,1,4",
+    "12,25,1,11",
+    "12,36,1,4",
+    "12,40,1,4",
+    "12,44,1,4",
     "11,6,1,4",
     "11,10,1,7",
     "11,17,1,4",
     "11,21,1,4",
     "11,25,1,11",
-    "12,25,1,11",
     "11,36,1,4",
-    "12,36,1,4",
     "11,40,1,4",
-    "12,40,1,4",
     "11,44,1,4",
-    "12,44,1,4"
+    "34,6,7,28",
+    "32,6,1,4",
+    "33,6,1,4",
+    "32,10,1,4",
+    "33,10,1,4",
+    "32,14,1,4",
+    "33,14,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -220,4 +267,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//E+WtyulJgIFGFv6/dTGQuPC5fALqR+M+4ArV2dCq5trqYZgR9PqP4Iq/mvR2SELjyWDj6HFgguglbtYgjIxNmJ5v6L2pAMGEPLqw5KXlFL4PtIwzHNeAbyh91PeXELpEzfuhK9v2LK/Q4oioA4/KWIZGljSky5McNmbRel0cgIIzWPFdQed1KojyYkMZKZEGdg75zcy5BJN5iXhz1BCzazdzgAY68Kda2kfESlWnlzln/PK8skv4R07SdWs8KdHvrvAmZGL92W2hcOGvTD0uOam1CqT/k7UnkMTI2s1FcPYMGJwACfun/v4SUmPUfdchvO2f1jJ9Eo65IRZDtmHe4lUUb8DMG8ZvGgp3MZcuyVaO/4fp6Ss39zJBvk22SV3yMY9LGpZM+43/MzsHHacF19zlCNrLFbIaD4ZH5mc3eapocx/cBiVWE2bObgD5Pu5sRcGG9zwIgaYngjY+MNryfyuUq/ll1LRD6p3Cqmb/RNz9FUTH4aaA/Ja6CBkIAbl5BD1f6TwXt+by3MuONgcR0aHlF2et5K2ZYo7I/i+GbQGQcuRyZsQLxQygyEUAIVWhN9nPls9jIq52ggnwt96087KH6zF7xqo7zxcJ0OBL3wg4SN6FLmnRW0wqNg13BDgD74RfzDT9WeiqW1iPTb4jQYrPCoaigq3Rp36MhacSptapfELVQ9bgsVvYUToJqie7wdDSY31WQ6CGOo0K9sao1RRB7so311RhSdH8c1dImy+zpotetzowp5Dytl9N8KNhYxflrVxcr/8Gi7sNco86KDWfYEek6cQbaN+OIJrxvUFpTflAKiEQxwRvQEi80KtdFA8/y8HIr+tIh1XynbVYkprU8YNN3ir2eBbYxBg9EX2rH5tCOUG0Z9lvrKTSuymVQgY7yLPfmcW0rlQ1S/r1Sg==|920
+}//T61PFOOB/TrdeFLKWRWLsR0axHsv/iNHICGudRRv1a2R9Swu7O9IhiZVng1BU1XHX2jvJ35qk3dlK1h6Q/kI7CkxpHPHwHxU+JRsz8gShsPI5GiCIh4q2H5Qlc0XzImWsLOPxhSdIBSQl2l1D1AOKl+/64cY8pdHAXzlIYmaVdoKA2cIHoMHwVmoiNAaF2OnyHFR7OeVJPhN0+KBDoJ5bXNeQ3VNqOekx4/voJjv5h41c9RzJndoI1347X/kvqLj5wZqMYSlfHdZ/Wqd+j4CXOIuzhsLcG4KKALpA8TPzZU4Cu2cB0nZN2TKkB13d/hz8xALLQUVqKAjpCElid/xvrQbquumo5TyUXzghLk3DRE9qdBmyX3ypTbt0i365RDFgsCKeHHPT2TKWoTVEGFPFtKqtIu5Mx6MbkzNh+y0RNajYYzUhfH3oSJq1k6jLT0Jcom+IuMd1hi97SFRquq8kobmUqpFYhvJ0QABSNf1izW29AnGRvpW9SjQgTbjivmB6hzXli+WlAwWn4BLbbywHwWNcD0R8IWgHhiMyJey9PtY+rRXHFhYKFjxeU9aOggTfpxoPMNfq7f3xegbXBXOt7UG6ZijexEgfV8xLCL5EshlraEdcLBMsWcnbnqqdS8gO34HA47g2xWNKUFCYVIGM3Awi58730tZTD/vib+ZJP7sHmNuyM3xNsL7L1SOhgmBaeDnRWiPKj5aRZ7rPYD6JRGv5R/7xK2ch1mKng+Qbu4q0f5fpv2093uGYG1ko3opDT82NC7oFixypqcUql/gfJrk1+SZU8UoLLpLHAfXUGlvTZfPKwwVKQBwg3NCyodAtHGoybCwycNvQgeXCERlFQPG4cfiYUc+101lJQUgqMTWr7QiwseqLgG7Se36TfgpyO4xW+PuRdnqK7sPVidXNg==|920
