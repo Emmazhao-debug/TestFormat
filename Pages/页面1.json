@@ -32,12 +32,106 @@
         "Text": "aaa",
         "TemplateKey": "_RS_Main1"
       }
+    },
+    "11,6": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "basicview",
+        "RowIndex": 11,
+        "ColumnIndex": 6,
+        "RowCount": 20,
+        "ColumnCount": 49,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "12,6": {
+      "NameUsedInJavaScript": "ID",
+      "BindingInfo": {
+        "TableName": "basicview",
+        "ColumnName": "ID",
+        "GUID": "50818ac1-3a69-4a81-9a3b-0dda4eabf3cf"
+      }
+    },
+    "12,10": {
+      "NameUsedInJavaScript": "テキスト",
+      "BindingInfo": {
+        "TableName": "basicview",
+        "ColumnName": "テキスト",
+        "GUID": "9e067092-4dfe-4166-bdd2-92bdb73141f7"
+      }
+    },
+    "12,17": {
+      "NameUsedInJavaScript": "整数",
+      "BindingInfo": {
+        "TableName": "basicview",
+        "ColumnName": "整数",
+        "GUID": "324076b6-e0cc-44b0-996c-364cb5705dbe"
+      }
+    },
+    "12,21": {
+      "NameUsedInJavaScript": "小数",
+      "BindingInfo": {
+        "TableName": "basicview",
+        "ColumnName": "小数",
+        "GUID": "b771f8a9-9f3c-472f-84dc-d9f60ed9b54f"
+      }
+    },
+    "12,25": {
+      "NameUsedInJavaScript": "日付_時刻",
+      "BindingInfo": {
+        "TableName": "basicview",
+        "ColumnName": "日付_時刻",
+        "GUID": "c976faa4-5a4c-40b7-9113-4118cf79db77"
+      }
+    },
+    "12,36": {
+      "NameUsedInJavaScript": "時刻",
+      "BindingInfo": {
+        "TableName": "basicview",
+        "ColumnName": "時刻",
+        "GUID": "f6981755-79da-47fa-8594-20eda9e59566"
+      }
+    },
+    "12,40": {
+      "NameUsedInJavaScript": "Yes_No",
+      "BindingInfo": {
+        "TableName": "basicview",
+        "ColumnName": "Yes_No",
+        "GUID": "8e172034-82c0-42ac-acfa-ec318fa9e52d"
+      }
+    },
+    "12,44": {
+      "NameUsedInJavaScript": "ユーザーアカウント",
+      "BindingInfo": {
+        "TableName": "basicview",
+        "ColumnName": "ユーザーアカウント",
+        "GUID": "a709b530-ba89-4961-bbfb-b7ffb22661cf"
+      }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
         "Formatter": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -47,7 +141,36 @@
       ]
     },
     "CellStyles": {
-      "4,6": 0
+      "4,6": 0,
+      "11,10": 1,
+      "11,11": 1,
+      "11,12": 1,
+      "11,13": 1,
+      "11,14": 1,
+      "11,15": 1,
+      "11,16": 1,
+      "11,17": 2,
+      "11,21": 2,
+      "11,25": 3,
+      "11,26": 1,
+      "11,27": 1,
+      "11,28": 1,
+      "11,29": 1,
+      "11,30": 1,
+      "11,31": 1,
+      "11,32": 1,
+      "11,33": 1,
+      "11,34": 1,
+      "11,35": 1,
+      "11,36": 2,
+      "11,40": 2,
+      "11,44": 2,
+      "12,17": 2,
+      "12,21": 2,
+      "12,25": 2,
+      "12,36": 2,
+      "12,40": 2,
+      "12,44": 2
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -55,7 +178,24 @@
   },
   "Spans": [
     "4,6,2,13",
-    "7,6,2,8"
+    "7,6,2,8",
+    "13,6,18,49",
+    "12,6,1,4",
+    "12,10,1,7",
+    "12,17,1,4",
+    "12,21,1,4",
+    "11,6,1,4",
+    "11,10,1,7",
+    "11,17,1,4",
+    "11,21,1,4",
+    "11,25,1,11",
+    "12,25,1,11",
+    "11,36,1,4",
+    "12,36,1,4",
+    "11,40,1,4",
+    "12,40,1,4",
+    "11,44,1,4",
+    "12,44,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -80,4 +220,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//WsEmcMquN4FUsRU2tRdYJnsQbNgOMsL7qSMZn5o9V5KcPcRTQPUJpGXDoRVmNb2iJ8Ble0PhnmZwvoawaJcFKLFgyZLYtl6LZpFSYFo+drohbrQM/NmzJvyDCAz+GBiKpUbq7C0/uR17r80rJPv5P5CSTnbeLjGBzzIW2O2sJFRtRJ4pciJOZnq09Bu7LnGoId5298MO9CH6fMhcqtfnNPolKq+QXqFOKeWf5Mw5KksEMTRVD4Ec9Hq4hSrfX12wSywD2q/UianTiyIslB78gy0P3NWwCdoAl52BAEV5jP/vWiVkXdFv0MDSz5bamygYAy7s9uds4wqVIt8+Hgf47Aw1XGTFfcbihi3fI/jJ0W2KSnEIk/hGGPCpv6k5vBwQDvjLWuX2UTYkTBFQJo8CYaOHG2tP1uJc0tJYkkB+H7z4XwNl+35G/1i2a09rjjPzqtjmBVHbbnn8uZPMN+ACapgaKemZV9kufES6q5BIXKON8zr+7DimJqev4F3grbTxeEbPnJdw2DxyBWSJ+iO7NVjQzihVK1Z5y+V7nX+Oovm9V1sftm+SKcLlPgmkBk7toqk3Muz8NgcrawQ+TYZ4i5/F8HP55VQrmziQupjlwxaRbNf0MrgWk0o/GLrKCZJEG4A/I6DTZRUf88T3m783M/xYqThCmVpGlZ3+GIGNCeOEcFXiDrhJIJuowrvI0J+xazmHgmm0gJ1KMuKbvX7m7ETnNNOY6gP274HaEzdicWE3BQg7kmTcPIgm8CFYu18W9uE37OMTxO6jTn74ZFfs6KRTgF30rgZH3GSPaUBN9aELENQC1gkpZ0C42PXEAw5jm+LsHTGKtQS9nhFFbEO4wJnpr4yu2FL62b7yC6EKl8qEfpQb6GmtDhdFTLe1UySO2MC7IEg40kBM8IA5tMX8Iw==|920
+}//E+WtyulJgIFGFv6/dTGQuPC5fALqR+M+4ArV2dCq5trqYZgR9PqP4Iq/mvR2SELjyWDj6HFgguglbtYgjIxNmJ5v6L2pAMGEPLqw5KXlFL4PtIwzHNeAbyh91PeXELpEzfuhK9v2LK/Q4oioA4/KWIZGljSky5McNmbRel0cgIIzWPFdQed1KojyYkMZKZEGdg75zcy5BJN5iXhz1BCzazdzgAY68Kda2kfESlWnlzln/PK8skv4R07SdWs8KdHvrvAmZGL92W2hcOGvTD0uOam1CqT/k7UnkMTI2s1FcPYMGJwACfun/v4SUmPUfdchvO2f1jJ9Eo65IRZDtmHe4lUUb8DMG8ZvGgp3MZcuyVaO/4fp6Ss39zJBvk22SV3yMY9LGpZM+43/MzsHHacF19zlCNrLFbIaD4ZH5mc3eapocx/cBiVWE2bObgD5Pu5sRcGG9zwIgaYngjY+MNryfyuUq/ll1LRD6p3Cqmb/RNz9FUTH4aaA/Ja6CBkIAbl5BD1f6TwXt+by3MuONgcR0aHlF2et5K2ZYo7I/i+GbQGQcuRyZsQLxQygyEUAIVWhN9nPls9jIq52ggnwt96087KH6zF7xqo7zxcJ0OBL3wg4SN6FLmnRW0wqNg13BDgD74RfzDT9WeiqW1iPTb4jQYrPCoaigq3Rp36MhacSptapfELVQ9bgsVvYUToJqie7wdDSY31WQ6CGOo0K9sao1RRB7so311RhSdH8c1dImy+zpotetzowp5Dytl9N8KNhYxflrVxcr/8Gi7sNco86KDWfYEek6cQbaN+OIJrxvUFpTflAKiEQxwRvQEi80KtdFA8/y8HIr+tIh1XynbVYkprU8YNN3ir2eBbYxBg9EX2rH5tCOUG0Z9lvrKTSuymVQgY7yLPfmcW0rlQ1S/r1Sg==|920
