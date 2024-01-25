@@ -8,34 +8,43 @@
       "DatabaseColumnType": "bigint",
       "MaxLength": -1,
       "Name": "ID",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "Alias": "名称",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Comment": "information"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "nvarchar",
       "MaxLength": -1,
       "Name": "テキスト",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "Alias": "Name",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Comment": "information"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "bigint",
       "MaxLength": -1,
       "Name": "整数",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "Alias": "Count",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Comment": "Count value"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "float",
       "MaxLength": -1,
       "Name": "小数",
-      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "Alias": "price",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Comment": "prices"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "datetime",
       "MaxLength": -1,
       "Name": "日付_時刻",
+      "Alias": "交付日期",
       "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -50,6 +59,7 @@
       "DatabaseColumnType": "bit",
       "MaxLength": -1,
       "Name": "Yes_No",
+      "Alias": "是否交付",
       "ColumnType": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -57,6 +67,7 @@
       "DatabaseColumnType": "nvarchar",
       "MaxLength": -1,
       "Name": "ユーザーアカウント",
+      "Alias": "登记人",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     }
   ],
