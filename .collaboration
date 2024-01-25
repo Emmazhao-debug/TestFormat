@@ -181,16 +181,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-01-25T15:34:52.9252617+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet.json"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -202,14 +193,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-01-25T15:35:21.1078546+08:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": []
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
@@ -217,12 +201,6 @@
   },
   {
     "ModuleName": "TableView/basicview",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-01-25T15:35:04.7048091+08:00",
     "ModuleType": 23
   }
 ]
