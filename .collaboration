@@ -201,6 +201,15 @@
   },
   {
     "ModuleName": "TableView/basicview",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "Emma.zhao@developertools.com"
+    },
+    "LockDateTime": "2024-01-25T15:47:15.4297584+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\basicview.json"
+    ]
   }
 ]
